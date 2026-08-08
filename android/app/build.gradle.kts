@@ -21,7 +21,7 @@ android {
         minSdk = 24
         targetSdk = 34
         versionCode = flutter.versionCode()
-versionName = flutter.versionName()
+        versionName = flutter.versionName()
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
         ndk { abiFilters += listOf("arm64-v8a", "x86_64") }
